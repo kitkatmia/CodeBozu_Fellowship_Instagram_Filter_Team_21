@@ -1,6 +1,28 @@
-from red_green_blue_bozu import *
-from negative_bozu import *
-from grayscale_bozu import *
+import cv2
+def negative(to_convert_image):
+    img = cv2.imread(to_convert_image, 0)
+    img = 255 - img
+    cv2.imwrite('negative_bozu.png', img)
+    cv2.imshow('Negative Bozu', img)
+    cv2.waitKey(0)
+    cv2.destroyAllWindows()
+    return img
+
+
+def grayify(to_convert_image):
+    pass
+
+def reddify(to_convert_image):
+    pass
+
+
+def greenify(to_convert_image):
+    pass
+
+
+def blueify(to_convert_image):
+    pass
+
 
 to_convert_image = 'Bozu.png'
 
