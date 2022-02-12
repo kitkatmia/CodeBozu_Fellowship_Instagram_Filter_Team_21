@@ -1,12 +1,12 @@
 # Create Red Green Blue Bozu function here
-def reddify():
+def reddify(to_convert_image):
     pass
-def greenify():
+def greenify(to_convert_image):
     pass
-def blueify():
+def blueify(to_convert_image):
     pass
 
 if __name__ == 'main':
-    reddify()
-    # greenify()
-    # blueify()
+    reddify('Bozu.png')
+    # greenify('Bozu.png')
+    # blueify('Bozu.png')

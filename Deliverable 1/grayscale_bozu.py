@@ -1,6 +1,6 @@
 # Write Grayscale Bozu function here
-def grayscale():
+def grayify(to_convert_image):
     pass
 
 if __name__ == '__main__':
-    grayscale()
+    grayify('Bozu.png')
